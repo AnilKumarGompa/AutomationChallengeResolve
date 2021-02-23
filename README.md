@@ -11,7 +11,6 @@
  Version for some of these can be found in the POM file:
 ---------------
 	•	Selenium - Web automation
-	•	Appium - Mobile automation
 	•	Maven - Build and package management
 	•	TestNG - Test execution and Reporting
 
