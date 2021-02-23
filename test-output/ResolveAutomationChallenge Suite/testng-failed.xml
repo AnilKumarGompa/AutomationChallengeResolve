@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [ResolveAutomationChallenge Suite]" guice-stage="DEVELOPMENT" verbose="10">
+  <test name="ResolveAutomationChallenge Tests(failed)">
+    <parameter name="osVersion" value="8.1"/>
+    <parameter name="session" value="Testing"/>
+    <parameter name="browserVersion" value="60"/>
+    <parameter name="browser-Type" value="chrome"/>
+    <parameter name="osName" value="WINDOWS"/>
+    <classes>
+      <class name="com.ResolveIDC.TestSuits.ResolveAutomationChallenge">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="test4"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.ResolveIDC.TestSuits.ResolveAutomationChallenge -->
+    </classes>
+  </test> <!-- ResolveAutomationChallenge Tests(failed) -->
+</suite> <!-- Failed suite [ResolveAutomationChallenge Suite] -->

@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite thread-count="2" verbose="10"
+       name="ResolveAutomationChallenge Suite" annotations="JDK" parallel="none">
+    <!-- <listeners> <listener class-name="com.listener.TestListener" /> </listeners> -->
+    <test name="ResolveAutomationChallenge Tests">
+        <parameter name="browser-Type" value="chrome"/>
+        <parameter name="browserVersion" value="60"/>
+        <parameter name="osName" value="WINDOWS"/>
+        <parameter name="osVersion" value="8.1"/>
+        <parameter name="session" value="Testing"/>
+        <classes>
+            <class
+                    name="com.ResolveIDC.TestSuits.ResolveAutomationChallenge"/>
+        </classes>
+    </test>
+</suite>
