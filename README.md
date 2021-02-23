@@ -42,7 +42,6 @@
 	•	Batch file will add the maven to the environment variables.
 	•	Build is triggered through Maven by using the command- clean install
 	•	It triggers the ResolveAutomationChallengeSuite.xml to execute tests.
-	•	If any tests failed , Failure screenshots will be captured with respective test names + timestamp and stored under Automation Reports\LatestResults\Screenshots
 	•	Once the test execution is completed , ReportNG reports will be generated under target\surefire-reports\html folder.
 	•	Generated Log reports at Logs.log.
 
@@ -77,8 +76,6 @@
  6. Listeners
 
 	•	Web Listener- To observe and log the browser actions.
-	•	Test Listener- To do some actions like taking failure screenshot, 
-		updating run time report based on test results (On Failure, On Success, On Start…)
 
  
  What is this repository for? 
